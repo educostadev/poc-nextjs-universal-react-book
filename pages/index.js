@@ -1,13 +1,13 @@
 import Link from 'next/link'
+import Layout from '../components/Layout'
 
 const index = () => (
-    <div>
-        <h1>HOME</h1>
+    <Layout title="Home">
         <Link href="/about">
             <a>Go to About</a>
         </Link>
         <p>Welcome to home page</p>
-    </div>
+    </Layout>
 );
 
 export default index;
